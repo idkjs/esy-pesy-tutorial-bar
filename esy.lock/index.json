@@ -1,5 +1,5 @@
 {
-  "checksum": "f0aa2e67e161cbf829306d3bd273b382",
+  "checksum": "18f613ebcc3e06e683e635a9750cc98e",
   "root": "bar@link-dev:./package.json",
   "node": {
     "refmterr@3.2.2@d41d8cd9": {
@@ -61,6 +61,26 @@
       "dependencies": [],
       "devDependencies": []
     },
+    "idkjs-foo@0.1.0@d41d8cd9": {
+      "id": "idkjs-foo@0.1.0@d41d8cd9",
+      "name": "idkjs-foo",
+      "version": "0.1.0",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/idkjs-foo/-/idkjs-foo-0.1.0.tgz#sha1:526d3f1ced8ae9c211cefb12dc007c4cbb63265c"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "refmterr@3.2.2@d41d8cd9", "ocaml@4.7.1004@d41d8cd9",
+        "@reason-native/rely@3.1.0@d41d8cd9",
+        "@reason-native/pastel@0.2.1@d41d8cd9",
+        "@reason-native/console@0.1.0@d41d8cd9",
+        "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"
+      ],
+      "devDependencies": []
+    },
     "dune@0.2.1@d41d8cd9": {
       "id": "dune@0.2.1@d41d8cd9",
       "name": "dune",
@@ -87,7 +107,7 @@
       "overrides": [],
       "dependencies": [
         "refmterr@3.2.2@d41d8cd9", "ocaml@4.7.1004@d41d8cd9",
-        "@reason-native/rely@3.1.0@d41d8cd9",
+        "idkjs-foo@0.1.0@d41d8cd9", "@reason-native/rely@3.1.0@d41d8cd9",
         "@reason-native/pastel@0.2.1@d41d8cd9",
         "@reason-native/console@0.1.0@d41d8cd9",
         "@opam/dune@opam:1.11.3@9894df55", "@esy-ocaml/reason@3.5.0@d41d8cd9"

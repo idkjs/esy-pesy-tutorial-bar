@@ -1,2 +1,2 @@
 (library (name Library) (public_name bar.library)
-    (libraries console.lib pastel.lib)) 
+    (libraries console.lib pastel.lib idkjs-foo.foolib)) 

@@ -7,3 +7,4 @@
     ]} */
 let hello: (unit) => string;
 
+let foo: unit => unit;
