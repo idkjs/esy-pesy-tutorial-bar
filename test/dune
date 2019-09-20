@@ -1,0 +1,2 @@
+(library (name Test) (public_name bar.test) (libraries bar.library rely.lib)
+    (flags -linkall -g -w -9)) 

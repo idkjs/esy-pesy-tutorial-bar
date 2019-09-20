@@ -1,0 +1,1 @@
+(executable (name BarApp) (public_name BarApp.exe) (libraries bar.library)) 
